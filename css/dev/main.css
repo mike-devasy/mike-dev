@@ -433,6 +433,23 @@ body {
   display: flex;
   flex-direction: column;
 }
+.content-footer__logo, .content-footer__link-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.content-footer__logo-image {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: rgba(218, 197, 167, 0.6);
+}
+.content-footer__logo-text {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-family: "Gambetta", serif;
+  color: rgba(218, 197, 167, 0.85);
+}
 .content-footer__social.social {
   gap: 1rem;
 }
@@ -882,9 +899,10 @@ html:not([data-fls-touch]) .social__link:hover::before {
   }
   .header__logo-text {
     display: inline-block;
-    margin-left: 0.25rem;
+    margin-left: 0.5rem;
     font-size: 1rem;
     font-family: "Gambetta", serif;
+    color: rgba(218, 197, 167, 0.85);
   }
   .header__body {
     gap: 2rem;

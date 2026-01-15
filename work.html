@@ -9,13 +9,11 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
-		<title>Contacts</title>
-		<script type="module" crossorigin="" src="./js/contacts.min.js?v=1768489233648"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1768489233648">
-		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1768489233648">
-		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1768489233648">
-		<link rel="stylesheet" crossorigin="" href="./css/contacts.min.css?v=1768489233648">
-		<link rel="stylesheet" crossorigin="" href="./css/socialblocks.min.css?v=1768489233648">
+		<title>Work</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1768489233646"></script>
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1768489233646"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1768489233646">
+		<link rel="stylesheet" crossorigin="" href="./css/work.min.css?v=1768489233646">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -57,89 +55,200 @@
 					</div>
 				</div>
 			</header>
-			<!-- @format -->
-			<main class="page page--contacts">
-				<article class="contacts">
-					<div class="contacts__container">
-						<figure class="contacts__picture">
-							<picture>
-								<source media="(max-width: 600px)" srcset="./assets/img/work/form-600.webp" type="image/webp">
-								<source media="(max-width: 1200px)" srcset="./assets/img/work/form-1200.webp" type="image/webp">
-								<img alt="Arik" class="contacts__image" src="./assets/img/work/form.webp">
-							</picture>
-						</figure>
-						<div class="contacts__body">
-							<div class="contacts__form form-contacts">
-								<div class="form-contacts__header">
-									<div data-fls-label="" class="form-contacts__label">Контакт</div>
-									<h1 data-fls-title="" class="form-contacts__title">Напишіть мені</h1>
-								</div>
-								<form data-fls-form="ajax" data-fls-form-popup="popup" method="post" action="/sendmail/index.php" class="form-contacts__body">
-									<div class="form-contacts__line">
-										<input data-fls-form-errtext="Name required" data-fls-input="" required type="text" placeholder="Ваше ім'я" name="name" class="form-contacts__input">
-									</div>
-									<div class="form-contacts__line">
-										<input data-fls-form-errtext="E-mail error" data-fls-input="" required type="email" placeholder="Email" name="email" class="form-contacts__input">
-									</div>
-									<textarea data-fls-input="" data-fls-input-autoheight="" autocomplete="off" placeholder="Повідомлення" name="message" class="form-contacts__input"></textarea>
-									<button type="submit" class="form-contacts__button button button--lite">Відправити</button>
-								</form>
-							</div>
-							<ul data-fls-socialblocks="" class="contacts__social social-blocks">
-								<li class="social-blocks__item">
-									<a href="#" target="_blank" data-fls-border="" class="social-blocks__link social-blocks__link--icon-s-inst">Instagram</a>
-								</li>
-								<!--
-<li class="social-blocks__item">
-<a
-href="#"
-target="_blank"
-data-fls-border
-class="social-blocks__link social-blocks__link--icon-s-twit"
->Twitter</a
->
-</li>
--->
-								<li class="social-blocks__item">
-									<a data-fls-border="" href="#" target="_blank" class="social-blocks__link social-blocks__link--icon-s-fb">Facebook</a>
-								</li>
-								<!--
-<li class="social-blocks__item">
-<a
-href="#"
-target="_blank"
-data-fls-border
-class="social-blocks__link social-blocks__link--icon-s-beh"
->Behance</a
->
-</li>
--->
-								<!--
-<li class="social-blocks__item">
-<a
-href="#"
-target="_blank"
-data-fls-border
-class="social-blocks__link social-blocks__link--icon-s-drb"
->Dribble</a
->
-</li>
--->
-								<!--
-<li class="social-blocks__item">
-<a
-href="#"
-target="_blank"
-data-fls-border
-class="social-blocks__link social-blocks__link--icon-s-pint"
->Pinterest</a
->
-</li>
--->
-							</ul>
+			<main class="page page--work">
+				<div data-fls-watcher="" data-fls-watcher-once="" class="page__header-work header-work">
+					<div data-fls-blockhead="" class="header-work__blockhead blockhead">
+						<h2 class="blockhead__title">Роботи</h2>
+						<div class="blockhead__text">
+							<p>Добірка моїх останніх вебпроєктів і реалізованих ідей.</p>
 						</div>
 					</div>
-				</article>
+				</div>
+				<div data-fls-watcher="" data-fls-watcher-once="" class="page__body-work body-work">
+					<div class="body-work__container">
+						<div class="body-work__works works">
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/miami/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/07-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/07-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/07.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/miami/" class="item-work__link-name">Miami</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/miami/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/shopiy/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/02-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/02-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/02.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/shopiy/" class="item-work__link-name">Shopify</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/shopiy/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/kv-studio/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/03-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/03-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/03.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/kv-studio/" class="item-work__link-name">Xnails</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/kv-studio/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/scooter/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/06-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/06-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/06.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/scooter/" class="item-work__link-name">Scooter</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/scooter/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/hous-decor/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/04-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/04-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/04.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/hous-decor/" class="item-work__link-name">House decor</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/hous-decor/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/brella/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/05-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/05-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/05.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/brella/" class="item-work__link-name">Brella</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/brella/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/arik-fool/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/01-600.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/01.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/arik-fool/" class="item-work__link-name">Arik</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/arik-fool/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/farmvest/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/08-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/08-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/08.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/farmvest/" class="item-work__link-name">FarmVest</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/farmvest/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/safari/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/12-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/12-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/12.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/safari/" class="item-work__link-name">Safari</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/safari/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/matoa/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/10-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/10-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/10.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/matoa/" class="item-work__link-name">Matoa</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/matoa/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/ciclo/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/09-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/09-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/09.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/ciclo/" class="item-work__link-name">Ciclo</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/ciclo/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+							<article data-fls-work="" class="item-work">
+								<a href="https:/mike-devasy.github.io/courses/" class="item-work__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/work/11-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/work/11-1200.webp" type="image/webp">
+										<img class="item-work__image" alt="Image" src="./assets/img/work/11.webp">
+									</picture>
+								</a>
+								<div class="item-work__body">
+									<h5 class="item-work__name">
+										<a href="https:/mike-devasy.github.io/courses/" class="item-work__link-name">Createx</a>
+									</h5>
+									<a href="https:/mike-devasy.github.io/courses/" class="item-work__category">Webdesign</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
 			</main>
 			<!-- @format -->
 			<aside data-fls-letstalk="" class="lets-talk">
@@ -290,19 +399,6 @@ class="social__link social__link--icon-s-beh"
 					</div>
 				</div>
 			</footer>
-		</div>
-		<div data-fls-popup="popup" aria-hidden="true" class="popup">
-			<div data-fls-popup-wrapper="" class="popup__wrapper">
-				<div data-fls-popup-body="" class="popup__body">
-					<button data-fls-popup-close="" type="button" class="popup__close">
-						<svg width="23" height="23" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
-							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
-						</svg>
-					</button>
-					<div data-fls-popup-content="" class="popup__text">Your message has been sent.</div>
-				</div>
-			</div>
 		</div>
 	</body>
 </html>
