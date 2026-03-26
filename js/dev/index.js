@@ -1,6 +1,6 @@
 import "./main.min.js";
-/* empty css                 */
 import "./common.min.js";
+/* empty css                 */
 class DynamicAdapt {
   constructor() {
     this.type = "max";
