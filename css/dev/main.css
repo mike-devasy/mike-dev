@@ -329,7 +329,11 @@ body {
   fill: rgba(218, 197, 167, 0.6);
 }
 .header__logo-text {
-  display: none;
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-family: "Gambetta", serif;
+  color: rgba(218, 197, 167, 0.85);
 }
 .header__body {
   display: flex;
@@ -896,13 +900,6 @@ html:not([data-fls-touch]) .social__link:hover::before {
   }
   .header {
     top: 3rem;
-  }
-  .header__logo-text {
-    display: inline-block;
-    margin-left: 0.5rem;
-    font-size: 1rem;
-    font-family: "Gambetta", serif;
-    color: rgba(218, 197, 167, 0.85);
   }
   .header__body {
     gap: 2rem;

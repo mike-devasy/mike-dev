@@ -227,10 +227,12 @@
   .item-work__category:hover {
     color: #f9efe1;
   }
-  .item-work:hover .item-work__image {
+}
+@media (any-hover: hover), (pointer: fine) {
+  html:not([data-fls-touch]) .item-work:hover .item-work__image {
     scale: 1.05;
   }
-  .item-work:hover .item-work__description {
+  html:not([data-fls-touch]) .item-work:hover .item-work__description {
     opacity: 1;
     backdrop-filter: blur(1.875rem);
   }
