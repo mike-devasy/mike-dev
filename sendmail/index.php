@@ -3,14 +3,14 @@
 require 'config.php';
 
 //Від кого лист
-$mail->setFrom('some@gmail.com', 'Лист від ЧФ4'); // Вказати потрібний E-mail
+$mail->setFrom('some@gmail.com', 'Letter from Mike-dev site'); // Вказати потрібний E-mail
 //Кому відправити
 $mail->addAddress('mike.devasy@gmail.com'); // Вказати потрібний E-mail
 //Тема листа
-$mail->Subject = 'Вітання! Це Чертоги Фрілансера 4';
+$mail->Subject = 'Hello! Meet the new offer!';
 
 //Тіло листа
-$body = '<h1>Зустрічайте супер листа!</h1>';
+$body = '<h1>Meet the new customer!</h1>';
 
 if(trim(!empty($_POST['name']))){
 $body.= '<p>Name:'.$_POST['name'] . '</p>';
