@@ -89,6 +89,7 @@
   position: absolute;
   bottom: 5%;
   right: 2%;
+  color: #fc9709;
 }
 .item-work._hover .item-work__image {
   scale: 1.05;
